@@ -7,12 +7,12 @@
   --error: #e7195a;
 }
 body {
-  background: #f1f1f1;
+  background: #03091b;
   margin: 0;
   font-family: "Poppins";
 }
 header {
-  background: #fff;
+  background: #9affad;
 }
 header .container {
   max-width: 1400px;
@@ -39,7 +39,7 @@ header a {
   gap: 100px;
 }
 .workout-details {
-  background: #fff;
+  background: #a9ffbe;
   border-radius: 4px;
   margin: 20px auto;
   padding: 20px;
@@ -102,6 +102,10 @@ input.error {
   border: 1px solid var(--error);
 }
 
+form label, form h3 {
+  color: #a7a7a7;
+}
+
 /* navbar */
 nav {
   display: flex;
@@ -128,4 +132,16 @@ form.signup, form.login {
   padding: 20px;
   background: #fff;
   border-radius: 4px;
+}
+
+.sort-dropdown {
+  background: #fff;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-family: "Poppins";
+  cursor: pointer;
+  font-size: 1em;
+  margin-left: 10px;
 }
